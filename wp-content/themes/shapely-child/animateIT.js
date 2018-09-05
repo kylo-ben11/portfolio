@@ -22,6 +22,7 @@ function() {
   $(this).removeClass('animated rubberBand duration2  eds-on-hover');
 })
 
+
 //Animate Nav and Contact Buttons
 $('.main-navigation .menu li a').hover(function() {
     $(this).addClass('animated jello duration1  eds-on-hover');
@@ -95,5 +96,5 @@ $("#menu-item-91 a").click(function() {
     $('#menu').prepend('<a href="https://www.linkedin.com/in/benjamin-knier" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>');
   });
 
-//Try and kick the server
+
 });
