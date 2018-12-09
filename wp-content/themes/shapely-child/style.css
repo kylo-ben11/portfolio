@@ -26,3 +26,15 @@ Text Domain: shapely-child
        top: 80px!important;
     }
 }
+#post-206 .entry-title {
+	display:none;
+}
+.full {
+	min-width: 100%;
+}
+.page-id-206 {
+    background-color: #909090;
+}
+.page-id-206 .fl-module img {
+	margin-bottom: 5px;
+}

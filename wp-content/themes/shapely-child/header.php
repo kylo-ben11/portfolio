@@ -94,6 +94,62 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 	    <span>2018</span>
 	  </div>
 	</div></div>';
+
+}elseif (is_page(143)){
+	echo '
+	<div class="shape_background">
+		<div class="shape_container">
+			<div class="shape"></div>
+			<div class="shape2"></div>
+
+			<div class="banner_container"><div class="banner">
+			  <div class="line">
+			    <span>Play Time</span>
+			  </div>
+			  <div class="line">
+			    <span>with</span>
+			  </div>
+			  <div class="line">
+			    <span>Clip-Paths</span>
+			  </div>
+			</div></div>
+		</div>
+		</div>
+	';
+	
+	}elseif (is_page(173)){
+	echo '
+
+			<div class="banner_container banner_container__react"><div class="banner">
+			  <div class="line">
+			    <span>Let\'s Learn</span>
+			  </div>
+			  <div class="line">
+			    <span>Some Basic</span>
+			  </div>
+			  <div class="line">
+			    <span>React</span>
+			  </div>
+			</div></div>
+		
+	';
+	
+} elseif (is_page(206)){
+	echo '
+
+			<div class="banner_container banner_container__react"><div class="banner">
+			  <div class="line">
+			    <span>Tools</span>
+			  </div>
+			  <div class="line">
+			    <span>and</span>
+			  </div>
+			  <div class="line">
+			    <span>Resources</span>
+			  </div>
+			</div></div>
+		
+	';
 } else {
 	echo shapely_top_callout();
 }
